@@ -51,4 +51,6 @@ func main() {
 }
 ```
 
-# go run main.go 50 5s http://www.example.com/
+```
+go run main.go 50 5s http://www.example.com/
+```
