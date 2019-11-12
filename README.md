@@ -52,5 +52,6 @@ func main() {
 ```
 
 ```shell
+$ go get github.com/tsenart/vegeta/lib
 $ go run main.go 50 5s http://www.example.com/
 ```
