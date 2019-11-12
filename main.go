@@ -46,5 +46,3 @@ func main() {
 	errors, _ := json.MarshalIndent(metrics.Errors, " ", " ")
 	fmt.Println("errors:", string(errors))
 }
-
-// go run main.go 50 5s http://www.example.com/
